@@ -15,7 +15,8 @@ public class b_1000 {
 		
 		// 문자열을 지정한 구분자로 쪼개주는 클래스
 		StringTokenizer st = new StringTokenizer(input, " ");
-		 
+		
+		// 토큰 쪼개서 읽기
 		int a = Integer.parseInt(st.nextToken());
 		int b = Integer.parseInt(st.nextToken());
 		System.out.println(a + b);
