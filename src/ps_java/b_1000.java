@@ -1,15 +1,15 @@
 package ps_java;
 
 import java.io.BufferedReader;
+import java.io.FileReader;
 import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class b_1000 {
 	public static void main(String[] args) throws IOException {
 		// 입력 버퍼 생성
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 		// 테케 입력 받음
 		String input = br.readLine();
 		
